@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support - ReMind</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(180deg, 
+                rgb(26, 26, 51) 0%, 
+                rgb(38, 13, 64) 50%, 
+                rgb(51, 26, 77) 100%);
+            min-height: 100vh;
+            color: rgba(255, 255, 255, 0.95);
+            line-height: 1.6;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(20px) saturate(116.5%) contrast(112%);
+            -webkit-backdrop-filter: blur(20px) saturate(116.5%) contrast(112%);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 24px;
+            padding: 40px;
+            box-shadow: 
+                0 8px 32px rgba(0, 0, 0, 0.1),
+                0 24px 64px rgba(153, 36, 79, 0.2);
+        }
+
+        h1 {
+            font-size: 42px;
+            font-weight: 700;
+            margin-bottom: 12px;
+            background: linear-gradient(135deg, #fff 0%, rgba(255, 255, 255, 0.8) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .subtitle {
+            font-size: 16px;
+            color: rgba(255, 255, 255, 0.6);
+            margin-bottom: 40px;
+        }
+
+        h2 {
+            font-size: 28px;
+            font-weight: 600;
+            margin-top: 40px;
+            margin-bottom: 16px;
+            color: rgba(255, 255, 255, 0.95);
+        }
+
+        h3 {
+            font-size: 20px;
+            font-weight: 600;
+            margin-top: 24px;
+            margin-bottom: 12px;
+            color: rgba(255, 255, 255, 0.9);
+        }
+
+        p {
+            margin-bottom: 16px;
+            color: rgba(255, 255, 255, 0.8);
+            font-size: 16px;
+        }
+
+        ul, ol {
+            margin-bottom: 16px;
+            padding-left: 24px;
+        }
+
+        li {
+            margin-bottom: 8px;
+            color: rgba(255, 255, 255, 0.8);
+        }
+
+        strong {
+            color: rgba(255, 255, 255, 0.95);
+            font-weight: 600;
+        }
+
+        a {
+            color: #3B82F6;
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        a:hover {
+            color: #60A5FA;
+            text-decoration: underline;
+        }
+
+        .faq-item {
+            background: rgba(255, 255, 255, 0.05);
+            border-left: 4px solid #A855F7;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+        }
+
+        .faq-question {
+            font-size: 18px;
+            font-weight: 600;
+            color: rgba(255, 255, 255, 0.95);
+            margin-bottom: 12px;
+        }
+
+        .faq-answer {
+            color: rgba(255, 255, 255, 0.8);
+        }
+
+        .contact-box {
+            background: rgba(59, 130, 246, 0.1);
+            border: 1px solid rgba(59, 130, 246, 0.3);
+            padding: 24px;
+            margin: 32px 0;
+            border-radius: 12px;
+            text-align: center;
+        }
+
+        .contact-box h3 {
+            margin-top: 0;
+            color: #60A5FA;
+        }
+
+        .email-link {
+            font-size: 20px;
+            font-weight: 600;
+            color: #3B82F6;
+            display: inline-block;
+            margin-top: 12px;
+        }
+
+        .footer {
+            margin-top: 60px;
+            padding-top: 24px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            text-align: center;
+            color: rgba(255, 255, 255, 0.5);
+            font-size: 14px;
+        }
+
+        .step-number {
+            display: inline-block;
+            width: 28px;
+            height: 28px;
+            background: rgba(168, 85, 247, 0.3);
+            border-radius: 50%;
+            text-align: center;
+            line-height: 28px;
+            margin-right: 8px;
+            font-weight: 600;
+            color: #A855F7;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 24px;
+            }
+
+            h1 {
+                font-size: 32px;
+            }
+
+            h2 {
+                font-size: 24px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Support</h1>
+        <p class="subtitle">We're here to help you get the most out of ReMind</p>
+
+        <h2>Getting Started</h2>
+        <p>ReMind is designed to be simple and intuitive. Here's how to get started:</p>
+        
+        <ol>
+            <li><strong>Set Your First Reminder:</strong> Tap on the time display to set your target time</li>
+            <li><strong>Customize the Message:</strong> Enter a custom notification message that will appear when the reminder fires</li>
+            <li><strong>Add More Reminders:</strong> Tap the + button in the top right to create additional reminders</li>
+            <li><strong>Delete Reminders:</strong> Swipe left on any timer card to remove it</li>
+            <li><strong>Adjust Settings:</strong> Tap the info button (ⓘ) to customize colors, backgrounds, and time format</li>
+        </ol>
+
+        <h2>Frequently Asked Questions</h2>
+
+        <div class="faq-item">
+            <div class="faq-question">What does "±15 minutes" mean?</div>
+            <div class="faq-answer">
+                <p>By default, ReMind delivers notifications within 15 minutes before or after your target time. For example, if you set a reminder for 8:00 AM, you might receive it anywhere between 7:45 AM and 8:15 AM. This natural randomness makes reminders feel less mechanical and more organic.</p>
+                <p>If you prefer exact timing, you can enable Strict Mode in the settings (tap the ⓘ button).</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">Why aren't I receiving notifications?</div>
+            <div class="faq-answer">
+                <p>Make sure you've granted ReMind notification permissions:</p>
+                <ol>
+                    <li>Open iOS Settings</li>
+                    <li>Scroll down and tap "ReMind"</li>
+                    <li>Tap "Notifications"</li>
+                    <li>Enable "Allow Notifications"</li>
+                    <li>Make sure Sounds and Badges are enabled</li>
+                </ol>
+                <p>Also check that Do Not Disturb or Focus modes aren't blocking notifications.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">How do I change the time format?</div>
+            <div class="faq-answer">
+                <p>Tap the info button (ⓘ) in the top right corner, then toggle "24-Hour Format" to switch between 12-hour (AM/PM) and 24-hour (military) time display.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">Can I customize the app's appearance?</div>
+            <div class="faq-answer">
+                <p>Yes! Tap the info button (ⓘ) to access customization options:</p>
+                <ul>
+                    <li><strong>Background Color:</strong> Choose any color you like</li>
+                    <li><strong>Text Color:</strong> Customize the text color for better contrast</li>
+                    <li><strong>Background Image:</strong> Upload a photo from your library to use as the background</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">How many reminders can I create?</div>
+            <div class="faq-answer">
+                <p>You can create as many reminders as you need! There's no limit. Simply tap the + button to add new ones, and swipe left to delete any you no longer need.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">Will reminders work if the app is closed?</div>
+            <div class="faq-answer">
+                <p>Yes! ReMind uses iOS's local notification system, which means your reminders will fire even when the app is closed or your phone is locked. The notifications are scheduled on your device and don't require the app to be running.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">Do reminders repeat daily?</div>
+            <div class="faq-answer">
+                <p>Yes! All reminders in ReMind automatically repeat every day at your specified time (or within the ±15 minute window in loose mode). You don't need to set them up again.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">Is my data private?</div>
+            <div class="faq-answer">
+                <p>Absolutely! ReMind stores all data locally on your device. We don't collect, transmit, or store any of your information on external servers. Your reminders and settings stay completely private. See our <a href="privacy.html">Privacy Policy</a> for more details.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">What's the difference between Loose Mode and Strict Mode?</div>
+            <div class="faq-answer">
+                <p><strong>Loose Mode (default):</strong> Notifications arrive within ±15 minutes of your target time, creating natural, less predictable reminders.</p>
+                <p><strong>Strict Mode:</strong> Notifications arrive exactly at your specified time, perfect for time-sensitive activities.</p>
+                <p>You can toggle this in the settings by tapping the info button (ⓘ).</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">How do I delete a reminder?</div>
+            <div class="faq-answer">
+                <p>Simply swipe left on any timer card, and a delete button will appear. Tap it to remove the reminder permanently.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">Can I use ReMind on iPad or Mac?</div>
+            <div class="faq-answer">
+                <p>Currently, ReMind is optimized for iPhone. iPad and Mac support may be added in future updates.</p>
+            </div>
+        </div>
+
+        <h2>Troubleshooting</h2>
+
+        <h3>Notifications Not Appearing</h3>
+        <ol>
+            <li>Check notification permissions in iOS Settings → ReMind → Notifications</li>
+            <li>Ensure Do Not Disturb and Focus modes aren't blocking notifications</li>
+            <li>Verify the reminder time is set correctly</li>
+            <li>Try deleting and recreating the reminder</li>
+            <li>Restart your device</li>
+        </ol>
+
+        <h3>App Crashing or Freezing</h3>
+        <ol>
+            <li>Make sure you're running the latest version of ReMind</li>
+            <li>Update to the latest iOS version</li>
+            <li>Force quit the app and reopen it</li>
+            <li>Restart your device</li>
+            <li>If the problem persists, contact support</li>
+        </ol>
+
+        <h3>Background Image Not Displaying</h3>
+        <ol>
+            <li>Ensure you've granted ReMind photo library access</li>
+            <li>Try selecting a different image</li>
+            <li>Make sure the image file isn't corrupted</li>
+            <li>Remove the image and try adding it again</li>
+        </ol>
+
+        <h2>Feature Requests & Feedback</h2>
+        <p>We love hearing from our users! If you have ideas for new features or improvements, please reach out. While we can't guarantee every feature will be implemented, we carefully consider all feedback.</p>
+
+        <h2>System Requirements</h2>
+        <ul>
+            <li><strong>iOS Version:</strong> iOS 16.0 or later</li>
+            <li><strong>Device:</strong> iPhone (optimized for all screen sizes)</li>
+            <li><strong>Storage:</strong> Minimal (less than 10 MB)</li>
+            <li><strong>Permissions:</strong> Notifications (required), Photos (optional for background images)</li>
+        </ul>
+
+        <div class="contact-box">
+            <h3>Still Need Help?</h3>
+            <p>Can't find the answer you're looking for? We're here to help!</p>
+            <a href="mailto:think@mind.sx" class="email-link">think@mind.sx</a>
+            <p style="margin-top: 16px; font-size: 14px; color: rgba(255, 255, 255, 0.6);">
+                We typically respond within 24-48 hours
+            </p>
+        </div>
+
+        <div class="footer">
+            <p>© 2024 ReMind. All rights reserved.</p>
+            <p><a href="privacy.html">Privacy Policy</a> • <a href="terms.html">Terms of Service</a></p>
+        </div>
+    </div>
+</body>
+</html>
